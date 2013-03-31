@@ -202,9 +202,16 @@ input {
   overflow:auto;
   height: 100px;
 }
+.large-content{
+  display: block;
+  overflow:auto;
+  height: auto;
+  padding-bottom: 50px;
+}
 .timestamp {
   color: $grayLight;
 }
+
 .gravatar {
   float: left;
   margin-right: 10px;
