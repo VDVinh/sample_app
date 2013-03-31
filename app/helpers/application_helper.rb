@@ -7,4 +7,8 @@ module ApplicationHelper
 			"#{base_title} | #{page_title}"
 		end
 	end
+
+	def markdown(text)
+   		BlueCloth::new(text).to_html
+  	end
 end
