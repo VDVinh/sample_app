@@ -199,6 +199,8 @@ input {
 }
 .content {
   display: block;
+  overflow:auto;
+  height: 100px;
 }
 .timestamp {
   color: $grayLight;
